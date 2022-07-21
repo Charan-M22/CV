@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+  </head>
+  <body>
+    <h1>
+      My contact details:
+    </h1>
+    <table cellpadding="3">
+      <tr>
+        <td><strong><u>Phone number: </u></strong></td><td>9583992343</td>
+      </tr>
+      <tr>
+        <td><strong><u>E-mail: </u></strong></td><td>charan.muthukumaran2021@gmail.com</td>
+      </tr>
+      <tr>
+        <td><strong><u>Linked In: </u></strong></td><td><a href=https://www.linkedin.com/in/charan-muthukumaran-266412244/ target="_blank">Charan's LinkedIn</a></td>
+      </tr>
+    </table>
+    <br />
+    <form action="mailto:charan.muthukumaran2021@gmail.com" method="post" enctype="text/plain">
+      <div >
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+     </div><br />
+     <div>
+        <label for="email">Enter your e-mail: </label>
+        <input type="email" name="email" id="email" required>
+     </div><br />
+     <div >
+        <input type="radio">
+        <label>I want to be added to the subscriber list</label>
+     </div><br />
+     <div >
+        <label>Date of joining: </label>
+        <input type="date">
+     </div><br />
+     <div >
+       <label>Your message:</label><br />
+        <textarea name="message" rows="8" col="220">Enter your message</textarea>
+     </div><br />
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
